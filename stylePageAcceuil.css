@@ -1,0 +1,236 @@
+body{
+
+  height: 900px;
+  background-color: #f8f9fa;
+
+}
+
+header{
+
+  background-color: #fff;
+  height: 80px;
+  margin-top:-10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.Logo-du-Site
+{
+
+  width:250px;
+  height: 70px;
+  margin-top: 5px;
+  margin-left: 80px;
+  margin-bottom: 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+.acceuil
+{
+  position: relative;
+  height: 35px;
+  width: 120px;
+  bottom: 55px;
+  left: 1100px;
+  
+}
+.libelleAcceuil
+{
+  position: absolute;
+  left:34px;
+  top:10px;
+  text-align: center;
+  font-family: 'muliregular',Arial,sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+ 
+}
+.iconeAcceuil img
+{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top:3.5px;
+  left: 4px;
+}
+
+.section1{
+
+  height: 271px;
+
+}
+
+.titrePrincipal-et-Description
+{
+ 
+  height: 260px;
+  width: 600px;
+  margin-left: 80px;
+  vertical-align: top;
+
+}
+.titrePrincipal-et-Description p:nth-child(1)
+{
+  font-family: 'robotoblack',Arial,sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 73px;
+  color: black;
+
+}
+.titrePrincipal-et-Description p:nth-child(2)
+{
+  margin-top:-40px;
+  color: #5d6b79;
+  font-family: 'ibm_plex_sansregular',Arial,sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+.image-LangageC
+{
+  position: relative;
+  left:690px;
+  bottom: 315px;
+  height: 200px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  vertical-align: top;
+  
+}
+
+
+.section2{
+
+  padding: 3px;
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width:1000px;
+  height: 300px;
+  margin:auto;
+  margin-top:40px;
+  justify-content:space-around;
+
+}
+
+.card1 {
+
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 290px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-family: 'muliregular',Arial,sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.icon img
+{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+
+}
+.info h4,p
+{
+  text-align: center;
+}
+.card2
+{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 290px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-family: 'muliregular',Arial,sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.card3 {
+
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 290px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-family: 'muliregular',Arial,sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.lien-commencerTest button
+{
+  font-family: 'muliregular',Arial,sans-serif;
+  width: 110px;
+  height: 40px;
+}
+footer
+{
+  width:350px;
+  margin-top: 170px;
+  font-family: 'muliregular',Arial,sans-serif;
+}
+@font-face {
+    font-family: 'muliregular';
+    src: url('fonts/muli-webfont.woff2') format('woff2'),
+         url('fonts/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url('fonts/muli-bold-webfont.woff2') format('woff2'),
+         url('fonts/muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansregular';
+    src: url('fonts/ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/ibmplexsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
