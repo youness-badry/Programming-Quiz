@@ -33,7 +33,7 @@ header {
   left: 34px;
   top: 10px;
   text-align: center;
-  font-family: "muliregular", Arial, sans-serif;
+  font-family: 'muliregular', Arial, sans-serif;
   color: black;
   font-weight: 600;
   font-size: 15px;
@@ -70,8 +70,8 @@ header {
   position: absolute;
   right: 290px;
   top: -10.5px;
-  width: 140px;
-  height: 400px;
+  width: 160px;
+  height: 405px;
   border-top: solid #777 5px;
   margin-top: 10px;
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
@@ -83,9 +83,12 @@ header {
   padding-right: 12px;
 }
 .barre-Laterale h4 {
+ 
   font-size: 1.3em;
   color: #db7b03;
-  margin: 8px 20px;
+  margin: 8px 22px;
+  width: 105px;
+  margin-left: 30px;
 }
 
 .question {
@@ -151,13 +154,13 @@ header {
   margin-top: 20px;
 }
 
-.question-image img {
-  width: 60%;
-  height: 60%;
+.question-image {
+
   border-radius: 0.5rem;
   margin-top: 30px;
   margin-left: 100px;
 }
+
 
 .answers-holder {
   font-size: 1.1em;
@@ -168,14 +171,12 @@ header {
 .answers-holder input {
   margin-top: 30px;
 }
-.navigation 
-{
+.navigation {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
   height: 90px;
 }
-
 
 .next-button {
   font-size: 1.1em;
@@ -185,17 +186,14 @@ header {
   height: 35px;
 }
 .previous-button {
- 
   font-size: 1.1em;
   margin-left: 140px;
-   margin-right: 0px;
+  margin-right: 0px;
   width: 170px;
   height: 35px;
-  
 }
 
 .score-button {
-
   font-size: 1.1em;
   margin-right: 140px;
   margin-left: -20px;
@@ -223,11 +221,9 @@ header {
 
 .sectionScoreEtCorrection {
   height: auto;
- 
 }
 
 .scoreEtCorrection {
-  
   width: 900px;
   height: auto;
   margin: auto;
@@ -286,14 +282,14 @@ header {
   margin-top: -10px;
   margin-left: 130px;
 }
-.partieReponses
-{
+.partieReponses {
   height: 250px;
+  
 }
 .questionNbr p {
   margin-top: 0px;
   font-style: bold;
-  margin-left: 125px;
+  margin-left: 45px;
   font-size: 22px;
 }
 
@@ -307,17 +303,16 @@ header {
 
 .reponse {
   margin-top: 20px;
-  margin-left: 170px;
+  margin-left: 90px;
   width: 500px;
   padding-left: 20px;
 }
 
 .partieReponses h4 {
   margin-top: 30px;
-  margin-left: 130px;
+  margin-left: 45px;
   font-family: "muliregular", Arial, sans-serif;
 }
-
 
 footer {
   width: 350px;
@@ -343,23 +338,18 @@ footer {
   font-style: normal;
 }
 @font-face {
-  font-family: "robotoregular";
-  src: url("fonts/roboto-regular-webfont.woff2") format("woff2"),
-    url("fonts/roboto-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'robotoblack';
+    src: url('fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-  font-family: "robotoblack";
-  src: url("fonts/roboto-black-webfont.woff2") format("woff2"),
-    url("fonts/roboto-black-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "ibm_plex_sansregular";
-  src: url("fonts/ibmplexsans-regular-webfont.woff2") format("woff2"),
-    url("fonts/ibmplexsans-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'ibm_plex_sansregular';
+    src: url('fonts/ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/ibmplexsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

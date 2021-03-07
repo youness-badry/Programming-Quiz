@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Test N° 3</title>
+    <link rel="stylesheet" href="CSS/stylePageQCM.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.4/codemirror.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.4/theme/neo.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="Logo-du-Site" src="images/logo-site.png" alt="logo-du-site" />
+      <div class="acceuil">
+        <a href="/">
+          <div class="iconeAcceuil">
+            <img src="images/iconeAcceuil.jpg" alt="icone-Acceuil" />
+          </div>
+          <div class="libelleAcceuil">Acceuil</div>
+        </a>
+      </div>
+    </header>
+
+    <section class="section1" id="sectionUn">
+      <p>Test Niveau 3 : Pointeurs et Structures</p>
+      <div class="question-et-barre">
+        <div class="question">
+          <div class="info text-question">
+            <div class="question-step"></div>
+            <div class="question-text"></div>
+            <div class="question-image"></div>
+            <h4>Réponses</h4>
+            <p>Choisissez la bonne réponse :</p>
+
+            <form type="input" class="answers-holder"></form>
+
+            <div class="navigation">
+              <button
+                type="button"
+                onclick="previousStep()"
+                class="previous-button button-disabled"
+              >
+                Retourner
+              </button>
+              <button
+                type="button"
+                onclick="nextStep()"
+                class="next-button button-disabled"
+              >
+                Suivant
+              </button>
+              <button
+                type="button"
+                onclick="getScore()"
+                class="score-button button-disabled"
+              >
+                Terminer
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="barre-Laterale">
+          <div class="info text-barre">
+            <h4>Questions</h4>
+            <div class="element-Liste" id="sideBarQ1">Question 1</div>
+            <div class="element-Liste" id="sideBarQ2">Question 2</div>
+            <div class="element-Liste" id="sideBarQ3">Question 3</div>
+            <div class="element-Liste" id="sideBarQ4">Question 4</div>
+            <div class="element-Liste" id="sideBarQ5">Question 5</div>
+            <div class="element-Liste" id="sideBarQ6">Question 6</div>
+            <div class="element-Liste" id="sideBarQ7">Question 7</div>
+            <div class="element-Liste" id="sideBarQ8">Question 8</div>
+            <div class="element-Liste" id="sideBarQ9">Question 9</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionScoreEtCorrection cache">
+      <p>Test Niveau 3 : Pointeurs et Structures</p>
+      <div class="scoreEtCorrection">
+        <div class="scoreGlobal">Votre Score :</div>
+        <div class="scoreNote">
+          <p><sup class="score-Numerateur">8</sup>&frasl;<sub>9</sub></p>
+        </div>
+        <p>Correction :</p>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.4/codemirror.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.4/mode/clike/clike.min.js"
+    ></script>
+    <script type="text/javascript" src="questions.js"></script>
+  </body>
+</html>
